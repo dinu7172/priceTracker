@@ -6,7 +6,6 @@ interface Props {
     product: Product;
 }
 const ProductCard = ({ product}: Props) => {
-    console.log("Image: ",product.image)
   return (
     <Link href={`products/${product._id}`} className="product-card">
         <div className='product-card_img-container'>
